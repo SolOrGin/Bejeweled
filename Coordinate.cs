@@ -4,5 +4,8 @@ public class Coordinate
     public int Col { get; }
 
     public Coordinate(int r, int c)
+    {
+        Row = r;
+        Col = c;
     }
 }
