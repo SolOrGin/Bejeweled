@@ -22,6 +22,11 @@ public class Gem
         Type = GemType.Empty;
     }
 
+    public Gem(GemType type)
+    {
+        Type = type;
+    }
+
     // Logic for comparing types
     public bool IsSameType(Gem other)
     {

@@ -1,6 +1,8 @@
+using System.Collections.Generic;
+
 public class Match
 {
-    private List<Coordinates> _coords;
+    private List<Coordinate> _coords;
     private GemType _type;
 
     public Match(List<Coordinate> coords, GemType type)
